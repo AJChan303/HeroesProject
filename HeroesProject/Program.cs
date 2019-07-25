@@ -59,7 +59,7 @@ namespace HeroesProject {
             if (health >= 300 && health <= 800) {
                 this.StartingHealth = health;
             } else {
-                Console.WriteLine("Health must be between 300 and 800");
+                Console.WriteLine("Health must be between 300 and 800");  
             }
         }
         public void SetDefaultAD(int AD) {
